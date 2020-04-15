@@ -1,0 +1,5 @@
+es.sistel.plugins.jira.sdchatbot.impl.SdchatbotPluginComponentImpl#es.sistel.plugins.jira.sdchatbot.api.SdchatbotPluginComponent
+es.sistel.plugins.jira.sdchatbot.service.impl.AgentServiceImpl#es.sistel.plugins.jira.sdchatbot.service.AgentService
+es.sistel.plugins.jira.sdchatbot.service.impl.ChatbotTrainingServiceImpl#es.sistel.plugins.jira.sdchatbot.service.ChatbotTrainingService
+es.sistel.plugins.jira.sdchatbot.service.impl.SdchatbotPluginServiceImpl#es.sistel.plugins.jira.sdchatbot.service.SdchatbotPluginService
+es.sistel.plugins.jira.sdchatbot.service.impl.ServiceDeskServiceImpl#es.sistel.plugins.jira.sdchatbot.service.ServiceDeskService

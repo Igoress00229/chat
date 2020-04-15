@@ -1,0 +1,75 @@
+{
+    "global": {
+        "help": "Ayuda",
+        "messages": {
+            "noRecordsFound": "Sin resultados",
+            "captions": {
+                "error": "Error",
+                "warning": "Advertencia",
+                "info": "Información",
+                "success": "Éxito"
+            },
+            "notFound": "No encontrado"
+        },
+        "dialogs": {
+            "captions": {
+                "confirmation": "Confirmación",
+                "information": "Información"
+            },
+            "buttons": {
+                "accept": "Aceptar",
+                "cancel": "Cancelar"
+            }
+        },
+        "upload": {
+            "fileUploaded": "El archivo se ha subido correctamente"
+        }
+    },
+    "settings": {
+        "title": "Ajustes",
+        "desc": "Ajustes principales del chatbot para JIRA Service Desk.",
+        "dialogFlow": {
+            "title": "Configuración del agente de Google Dialogflow",
+            "desc": "Es necesario tener una cuenta de Google Dialogflow con un agente creado. Si no tiene cuenta, puede crearla accediendo a:",
+            "projectId": "Id del proyecto:",
+            "editPermissions": "Editar permisos",
+            "credentials": {
+                "title": "Archivo JSON de credenciales de Google",
+                "uploadNewFile": "Subir nuevo archivo",
+                "noFile": "No se configuró ningún archivo de credenciales."
+            },
+            "integrations": {
+                "title": "Integraciones",
+                "webAgentEnabled": "Activar chatbot:",
+                "enableAgentCustomThemeCompatibility": "Habilitar compatibilidad con temas personalizados:",
+                "enableAgentCustomThemeCompatibilityDesc": "Active esta opción si está utilizando un complemento como 'Refined for Jira Service Desk' para cambiar el tema predeterminado del portal del cliente."
+            }
+        }
+    },
+    "stylesettings": {
+        "title": "Ajustes visuales",
+        "desc": "Ajustes visuales del chatbot",
+        "dialog": {
+            "sizes": "Tamaños del diálogo",
+            "widthInPx": "Ancho (en píxeles):",
+            "heightInPx": "Altura (en píxeles):"
+        },
+        "dialogFlow": {
+            "missingConfiguration": "El chatbot no está configurado. Vaya a la opción 'Ajustes' y realice los cambios necesarios."
+        }
+    },
+    "training": {
+        "title": "Entrenamiento",
+        "desc": "Entrenamiento del Chatbot",
+        "start": "Empezar entrenamiento",
+        "success": "Entrenamiento completado con éxito",
+        "error": "Error entrenando Chatbot",
+        "log": "Log"
+    },
+    "chatbot": {
+        "title": "Chatbot",
+        "description": "Chatbot por defecto",
+        "askSomething": "Pregunte algo...",
+        "cannotDisplayResponse": "No se puede mostrar la respuesta"
+    }
+}

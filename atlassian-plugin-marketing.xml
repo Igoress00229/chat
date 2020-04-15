@@ -1,0 +1,28 @@
+<atlassian-plugin-marketing>
+    <!--Describe names and versions of compatible applications -->
+    <compatibility>
+        <product name="jira" min="7.4.0" max="8.5.1"/>
+    </compatibility>
+
+    <!-- Describe your add-on logo and banner. The banner is only displayed in the UPM. -->
+    <logo image="images/sd-chatbot_pluginLogo.png"/>
+    <banner image="images/sd-chatbot_pluginBanner.png"/>
+
+    <!-- Describe highlight and cropped highlight image assets, in order. -->
+    <highlights>
+        <highlight image="images/highlight01.png" cropped="images/highlight01_cropped.png"/>
+        <highlight image="images/highlight02.png" cropped="images/highlight02_cropped.png"/>
+        <highlight image="images/highlight03.png" cropped="images/highlight03_cropped.png"/>
+    </highlights>
+
+    <!-- Describe additional screenshots you'd like listed on your add-on listing. -->
+    <screenshots>
+	<screenshot image="images/sd-chatbot_pluginBanner.png"/>
+        <screenshot image="images/screenshot01.png"/>
+        <screenshot image="images/screenshot01.png"/>
+        <screenshot image="images/screenshot03.png"/>
+        <screenshot image="images/screenshot04.png"/>
+        <screenshot image="images/screenshot05.png"/>
+        <screenshot image="images/screenshot06.png"/>
+    </screenshots>
+</atlassian-plugin-marketing>

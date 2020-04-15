@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>
+        $i18n.getText("sdchatbot.plugin.name")
+    </title>
+
+    #if ($isAdminPath) 
+        <meta name="decorator" content="atl.admin"/>
+    #else
+        <meta name="decorator" content="atl.general"/>
+    #end
+
+    <meta name="sdchatbot-base-href" content="$servletBaseUrl">
+    <meta name="sdchatbot-plugin-key" content="$pluginKey">
+    <meta name="sdchatbot-plugin-name" content="$pluginName">
+    <meta name="sdchatbot-plugin-version" content="$pluginVersion">
+    <meta name="sdchatbot-plugin-build-type" content="$pluginBuildType">
+    <meta name="sdchatbot-plugin-date" content="$pluginDate">
+    <meta name="sdchatbot-plugin-vendor" content="$pluginVendor">
+    <meta name="sdchatbot-plugin-vendor-url" content="$pluginVendorUrl">
+
+    ${webResourceManager.requireResourcesForContext("$pluginResourceContextKey")}
+</head>
+<body>
+    #if (${hasMessages})
+    <div class="sdchatbot-main-content">
+        <div class="aui-message info">
+            #foreach($message in $messages)
+                <p><span class="aui-icon icon-info"></span>$message</p>
+            #end
+        </div>
+    </div>
+    #end
+
+    <sdchatbot-root></sdchatbot-root>
+
+    $indexHtml
+</body>
+</html>

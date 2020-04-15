@@ -1,0 +1,1 @@
+AJS.toInit(function(){const a=AJS.contextPath()+"/rest/es.sistel.plugins.jira.sd-chatbot/2.0/chatbot/js?customThemePlugin=true";AJS.$("head").append('<script type="text/javascript" src="'+a+'">')});
